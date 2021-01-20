@@ -22,8 +22,8 @@ def unifonic_gateway(
 
 
 config = PACKAGE_CONFIG(
-	api_level='1.0',
-	version='1.0.0',
+	api_level='1.1',
+	version='1.1.0b1',
 	gateways={'unifonic': unifonic_gateway},
 	vars_types={'unifonic': ATTR.TYPED_DICT(dict={'sid': ATTR.STR()})},
 )
